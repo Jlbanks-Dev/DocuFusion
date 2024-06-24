@@ -1,0 +1,84 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #0d1117;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: #c9d1d9;
+}
+
+header {
+    background-color: #161b22;
+    padding: 1rem 0;
+    color: #c9d1d9;
+}
+
+header .container {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.card {
+    background-color: #21262d;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    padding: 2rem;
+    box-shadow: 0 1px 3px rgba(27, 31, 35, 0.12), 0 1px 2px rgba(27, 31, 35, 0.24);
+    text-align: center;
+}
+
+input[type="file"] {
+    display: block;
+    margin: 1rem auto;
+    color: #c9d1d9;
+}
+
+button {
+    background-color: #2ea44f;
+    border: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #22863a;
+}
+
+footer {
+    background-color: #161b22;
+    padding: 1rem 0;
+    color: #c9d1d9;
+    text-align: center;
+}
+
+footer a {
+    color: #2ea44f;
+    text-decoration: underline;
+}
